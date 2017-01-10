@@ -47,10 +47,6 @@
     [self updateValues];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 - (IBAction)onTap:(UITapGestureRecognizer *)sender {
     [self.view endEditing:YES];
     [self updateValues];
